@@ -1,16 +1,12 @@
 # examecommerce
 
-A new Flutter project.
+Toy E Commwerce App.
 
-## Getting Started
+## Screen
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p>
+  <img src="https://github.com/user-attachments/assets/027eb43c-c51f-4e94-a98c-c657f7b59612"height="35%" width="22%">
+   <img src="https://github.com/user-attachments/assets/e2215475-b6e8-4416-9e0b-3d8c6023528a"height="35%" width="22%">
+    <img src="https://github.com/user-attachments/assets/3c74db3b-317b-43e6-bf21-451b56c18041"height="35%" width="22%">
+  
+</p>
