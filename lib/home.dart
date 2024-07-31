@@ -40,8 +40,12 @@ class _HomePageState extends State<HomePage> {
                         image: DecorationImage(image: AssetImage(product[index]['img']),fit: BoxFit.cover),),
                     ),
                   ),
-                  Text(product[index]['name'],style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25),),
-                  Text('\$ ${product[index]['price']} ⭐',style: TextStyle(fontSize: 18,color: Colors.red),),
+                  Text(product[index]['name'],style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 25),),
+                  Text('\$ ${product[index]['price']} ⭐',
+                    style: TextStyle(fontSize: 16,color: Colors.red),),
+
                 ],
               ),
             ),

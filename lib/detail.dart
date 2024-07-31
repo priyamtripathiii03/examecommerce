@@ -27,11 +27,13 @@ class _DetailPageState extends State<DetailPage> {
           ),
           Padding(
             padding: const EdgeInsets.all(12.0),
-            child: Text(product[selectindex]['name'],style: TextStyle(
+            child: Text(product[selectindex]['name'],
+              style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.bold),),
           ),
-          Text('\$ ${product[selectindex]['price']} ⭐',style: TextStyle(
+          Text('\$ ${product[selectindex]['price']} ⭐',
+            style: TextStyle(
               fontSize: 22,
               color: Colors.red),),
           Padding(
@@ -50,12 +52,39 @@ class _DetailPageState extends State<DetailPage> {
               Container(
                 height: 70,
                 width: 250,
-                decoration: BoxDecoration(color: Colors.pink,
+                decoration: BoxDecoration(color: Colors.red,
                   borderRadius: BorderRadius.circular(20),
                 ),
+               child: GestureDetector(
+                 onTap: (){
+                   Navigator.of(context).pushNamed('/cart');
+                   cart.add(selectindex);
+
+                 },
+                 child: Row(
+                   children: [
+                     Padding(
+                       padding: const EdgeInsets.only(left: 45.0),
+                       child: Center(
+                         child: Text(
+                         'Add To Cart',
+                         style: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white),
+                       ),
+
+
+                       ),
+                     ),
+                     Icon(Icons.card_travel_rounded,color: Colors.white,)
+                   ],
+                 ),
+               ),
+                
 
 
               ),
+
 
             ],
           )

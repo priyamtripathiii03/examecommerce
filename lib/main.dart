@@ -2,6 +2,7 @@ import 'package:examecommerce/home.dart';
 import 'package:flutter/material.dart';
 import 'package:examecommerce/splash.dart';
 import 'package:examecommerce/detail.dart';
+import 'package:examecommerce/cart.dart';
 
 void main()
 {
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         '/': (context)=>SplashScreen(),
         '/home': (context)=>HomePage(),
         '/detail': (context)=>DetailPage(),
+        '/cart': (context)=>CartPage(),
 
 
       },
