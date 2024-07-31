@@ -1,6 +1,6 @@
 # examecommerce
 
-Toy E Commwerce App.
+The Toy Store E Commerce App.
 
 ## Screen
 
