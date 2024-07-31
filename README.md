@@ -13,6 +13,10 @@ The Toy Store E Commerce App.
 
 ## E Commerce App Video
 
-https://github.com/user-attachments/assets/1a6fe38a-b9e3-4668-98bf-c6f0e50e3f02
+
+
+https://github.com/user-attachments/assets/fa6f8211-10ec-4d13-9f3d-464d85034da8
+
+
 
 
