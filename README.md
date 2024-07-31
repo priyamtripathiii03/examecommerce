@@ -7,6 +7,7 @@ The Toy Store E Commerce App.
 <p>
   <img src="https://github.com/user-attachments/assets/027eb43c-c51f-4e94-a98c-c657f7b59612"height="35%" width="22%">
    <img src="https://github.com/user-attachments/assets/e2215475-b6e8-4416-9e0b-3d8c6023528a"height="35%" width="22%">
+  <img src="https://github.com/user-attachments/assets/4c2c45ef-71ba-433c-b684-e77454f76e9f"height="35%" width="22%">
     <img src="https://github.com/user-attachments/assets/d4a381f1-9538-482c-b5e0-b120fc9ac7ea"height="35%" width="22%">
   
 </p>
